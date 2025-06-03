@@ -18,6 +18,13 @@
     "scripts": "scripts",
     "environments": "environments"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spritesmine/LightGap-Remembering-Services.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Spritesmine/LightGap-Remembering-Services/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -153,6 +160,13 @@
     "@antfu/eslint-config": "^4.13.2",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@iconify-json/ant-design": "^1.2.5",
+    "@iconify-json/carbon": "^1.2.8",
+    "@iconify-json/heroicons": "^1.2.2",
+    "@iconify-json/heroicons-outline": "^1.2.1",
+    "@iconify-json/heroicons-solid": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/tabler": "^1.2.18",
     "@rollup/plugin-alias": "^5.1.1",
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-inject": "^5.0.5",
@@ -175,6 +189,7 @@
     "@typescript-eslint/eslint-plugin": "^8.33.0",
     "@typescript-eslint/parser": "^8.33.0",
     "@typescript-eslint/utils": "^8.33.0",
+    "@typescript/native-preview": "^7.0.0-dev.20250602.1",
     "@unocss/core": "^66.1.2",
     "@unocss/eslint-plugin": "^66.1.2",
     "@unocss/preset-attributify": "^66.1.2",
@@ -264,6 +279,7 @@
     "stylelint-scss": "^6.12.0",
     "supertest": "^7.1.1",
     "terser": "^5.40.0",
+    "tsgo-dev": "^2025.6.3",
     "typescript": "^5.8.3",
     "unocss": "^66.1.2",
     "unplugin-auto-import": "^19.3.0",
@@ -287,6 +303,7 @@
     "vite-plugin-csp": "^1.1.2",
     "vite-plugin-env-parse": "^1.0.15",
     "vite-plugin-env-typed": "^0.0.2",
+    "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-express": "^1.0.3",
     "vite-plugin-fake-server": "^2.2.0",
     "vite-plugin-favicon": "^1.0.8",
@@ -333,8 +350,8 @@
     "pinia": "^3.0.0"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
+    "node": ">=23.0.0",
+    "npm": ">=10.9.0"
   },
   "packageManager": "yarn@1.22.22"
 }
